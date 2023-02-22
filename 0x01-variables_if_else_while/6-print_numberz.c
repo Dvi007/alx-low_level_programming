@@ -1,0 +1,15 @@
+#include <stdio.h>
+/**
+ * main - print number with puchar
+ *
+ * Return: 0(for sucess)
+*/
+int main(void)
+{
+	char i;
+
+	for (i = 0; i < 10; i++)
+		putchar(i + '0');
+	putchar('\n');
+	return (0);
+}
